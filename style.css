@@ -5,16 +5,18 @@
 .container{
     display: flex;
     justify-content: center;
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 .content{
-    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: repeat(4,60px);
     grid-gap: 1.5rem;
     padding: 2rem;
-    background-image: linear-gradient(to bottom, #f7fafa, #f1f4f4, #ebefef, #e6e9e9, #e0e4e4, #dbdfdf, #d6dbdb, #d1d6d6, #cbd1d1, #c6cccc, #c0c7c7, #bbc2c2);
+    background-image: linear-gradient(to right, #151616, #181919, #1a1c1c, #1d1f1f, #202222, #232525, #262828, #292b2b, #2c2e2e, #303232, #333535, #373939);
     border-radius: 2rem;
+}
+.title{
+    text-align: center;
 }
 
 input{
@@ -25,7 +27,9 @@ input{
     text-align: end;
     height: 3rem;
     font-size: 3rem;
-    box-shadow: 3px 5px 9px rgb(70, 151, 179);
+    box-shadow: inset 5px 5px 12px rgb(70, 151, 179),
+                       5px 5px 12px rgb(54, 115, 135);
+    padding: 0.5rem;
 }
 .result{
     grid-column: span 2;
@@ -35,6 +39,7 @@ button{
     height: 4rem;
     border: none;
     border-radius: 5rem;
-    box-shadow: 5px 5px 10px rgb(70, 151, 179);
+    box-shadow: inset 5px 5px 12px rgb(70, 151, 179),
+    5px 5px 12px rgb(54, 115, 135);
     font-size: 1.5rem;
 }
